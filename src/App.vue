@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <div v-text="$t('foo')" />
 </template>
 
 <script lang="ts" setup>
