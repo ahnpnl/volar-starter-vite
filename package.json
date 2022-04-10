@@ -2,8 +2,8 @@
   "name": "volar-starter",
   "version": "0.0.0",
   "scripts": {
-    "postinstall": "tsc volarPlugins/prettier-html.ts --skipLibCheck",
     "dev": "vite",
+    "type-check": "vue-tsc --noEmit",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
