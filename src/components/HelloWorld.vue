@@ -28,6 +28,16 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+
+interface Bar {
+    foo(bar: string): void;
+}
+
+defineExpose<Bar>({
+    foo(bar) {
+        console.log('foo', bar);
+    }
+})
 </script>
 
 <style scoped>
