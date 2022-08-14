@@ -8,15 +8,15 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "next"
+    "vue": "latest"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "latest",
-    "@volar/vue-language-service-types": "^0.34.5",
+    "@vitejs/plugin-vue": "^2.3.4",
+    "@volar/vue-language-service-types": "^0.40.1",
     "@vue/compiler-sfc": "^3.2.33",
     "prettier": "latest",
     "typescript": "latest",
     "vite": "^2.9.5",
-    "vue-tsc": "^0.34.5"
+    "vue-tsc": "^0.40.1"
   }
 }
